@@ -76,7 +76,7 @@ func main() {
 		}
 
 		for _, r := range results {
-			fmt.Printf("kafka_lag,group=%s,topic=%s lag=%d %d\n", r.Group, r.Topic, r.Lag, r.Timestamp.Unix())
+			fmt.Printf("kafka_lag,group=%s,topic=%s lag=%d %d\n", r.Group, r.Topic, r.Lag, r.Timestamp.UnixNano())
 		}
 	}
 
