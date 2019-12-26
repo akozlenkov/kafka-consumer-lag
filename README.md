@@ -21,4 +21,5 @@ brokers:
 ```
 
 kafka_lag,group=test1,topic=test1 lag=1323 1576214316
+
 kafka_lag,group=test2,topic=test2 lag=214 1576214316
